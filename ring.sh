@@ -1,3 +1,7 @@
-for a in `seq 1 6`; do beep -f 1500 -l 200; beep -f 1550 -l 200; done
+  for n in 1 2 3 ; do
+    for f in 1 2 1 2 1 2 1 2 1 2 ; do
+      beep -f ${f}000 -l 20
+    done
+done
 #Author: odokemono
 #https://www.reddit.com/r/linux/comments/18h8v5/does_anyone_have_or_know_a_source_for_beep_scripts/
